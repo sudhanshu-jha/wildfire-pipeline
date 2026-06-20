@@ -1,5 +1,7 @@
 # Wildfire Detection Pipeline
 
+![Dashboard](docs/screenshot.png)
+
 An event-driven pipeline for drone/sensor-based wildfire detection, prediction, and alerting. Four FastAPI microservices communicate exclusively through a message bus (NATS JetStream by default, Kafka optional). A React dashboard consumes their outputs in real time. All events are persisted to Postgres.
 
 ```
