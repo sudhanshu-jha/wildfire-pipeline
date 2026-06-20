@@ -132,7 +132,7 @@ Expected contract: `float32 NCHW [1, 3, 640, 640]` in → `[N, 6]` (x1 y1 x2 y2 
 
 ### 🔥 Rothermel Spread Model
 
-`services/prediction/spread_model_stub.py` implements a simplified [Rothermel (1972)](https://www.fs.usda.gov/research/treesearch/32533) wind-driven ellipse:
+`services/prediction/spread_model_stub.py` implements a simplified [Rothermel (1972)](https://research.fs.usda.gov/treesearch/32533) wind-driven ellipse:
 
 - Wind factor `φ_w = 0.42 × speed^0.84` (capped at 3×)
 - Spread rate by fire class (flame: 8 m/min, smoke: 3 m/min), boosted 20% when smoke density > 20 ppm
